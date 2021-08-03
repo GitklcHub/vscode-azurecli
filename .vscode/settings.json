@@ -1,10 +1,22 @@
-// Place your settings in this file to overwrite default and user settings.
 {
-    "files.exclude": {
-        "out": false // set this to true to hide the "out" folder with the compiled JS files
-    },
-    "search.exclude": {
-        "out": true // set this to false to include "out" folder in search results
-    },
-    "python.pythonPath": "~/lib/azure-cli/bin/python"
+  "files.exclude": {
+    "out": false
+  },
+  "search.exclude": {
+    "out": true
+  },
+  "python.pythonPath": "~/lib/azure-cli/bin/python",
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic"
+  ],
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.excludeSearch": [],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false
 }
